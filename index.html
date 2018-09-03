@@ -1,0 +1,312 @@
+<html
+   <head>
+     <title>Robert Nishihara</title>
+
+     <link rel="stylesheet" href="style.css"/>
+
+<script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "L0RWLYmzHCzCTLT@J8Tz4.q08"
+  key = "9TxWFdQL4ICmYE3XqSiRHZU0JK1fOpk7j2w58GaMeDyzrlVhnt6PucNvbsBAog"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+}
+//-->
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68419320-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+function copy(dest, source) {
+  if(dest.source == source) {
+    dest.innerHTML = "";
+    dest.source = null;
+  }
+  else {
+    dest.innerHTML = source.innerHTML;
+    dest.source = source;
+  }
+  dest.blur();
+}
+</script>
+
+   </head>
+
+<body>
+  <div id="contents">
+
+
+<h2>Robert Nishihara</h2>
+
+<img style="float:right" src="images/robert.jpg" height="200" hspace="40">
+
+<ul>
+  <li>I grew up in the San Francisco Bay Area, where I spent my free time skateboarding and thinking about uncountable infinities. These interests led me to study mathematics at <a href="http://www.harvard.edu/">Harvard University</a>, where I was an undergraduate. When I realized that artificial intelligence can provide tools to solve a variety of problems, I joined the <a href="http://hips.seas.harvard.edu/">Harvard Intelligent Probabilistic Systems</a> group. I am broadly interested in applied math, machine learning, and optimization, and I am currently a member of the <a href="http://www.cs.berkeley.edu/~jordan/group-photo-at-nips-2013.jpg">Statistical AI Lab</a>, the <a href="https://amplab.cs.berkeley.edu/">AMPLab</a>/<a href="https://rise.cs.berkeley.edu/">RISELab</a>, and the <a href="http://bair.berkeley.edu/">Berkeley AI Research Lab</a> at <a href="http://www.berkeley.edu/">UC Berkeley</a>.</li>
+  <li>I am currently working on <a href="https://github.com/ray-project/ray">Ray</a>, a high-performance distributed execution framework for AI applications.</li>
+</ul>
+
+<h3> Contact </h3>
+<ul>
+  <li><script type="text/javascript">document.write("<a href='mailto:"+link+"'>"+link+"</a>")</script> <noscript>my full name (with no punctuation) at gmail dot com</noscript></li>
+  <li><a href="https://twitter.com/robertnishihara">@robertnishihara</a> on Twitter</li>
+  <li><a href="https://scholar.google.com/citations?user=zP0S_ikAAAAJ">Google Scholar</a></li>
+  <li><a href="https://github.com/robertnishihara">GitHub</a></li>
+</ul>
+
+<h3>Papers</h3>
+<ul>
+  <li><b>Flexible Primitives for Distributed Deep Learning in Ray.</b><br>
+    Yaroslav Bulatov, Robert Nishihara, Philipp Moritz, Melih Elibol, Ion Stoica, Michael I. Jordan.<br>
+    <i>SysML</i>, 2018.<br>
+    <div id="bib12" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{bulatov2018flexible,
+  title={Flexible Primitives for Distributed Deep Learning in {Ray}},
+  author={Yaroslav Bulatov and Robert Nishihara and Philipp Moritz and Melih Elibol and Ion Stoica and Michael I. Jordan},
+  booktitle={SysML Conference},
+  year={2018}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div12, bib12)">bib</a>]</font> <font size="-1">[<a href="http://www.sysml.cc/doc/206.pdf">paper</a>]</font> <br>
+    <div id="div12"></div>
+
+  <li><b>RLlib: Abstractions for Distributed Reinforcement Learning.</b><br>
+    Eric Liang, Richard Liaw, Philipp Moritz, Robert Nishihara, Roy Fox, Ken Goldberg, Joseph Gonzalez, Michael I. Jordan, Ion Stoica.<br>
+    <i>ICML</i>, 2018.<br>
+    <div id="bib11" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{liang2017composable,
+  title={{RLlib}: Abstractions for Distributed Reinforcement Learning},
+  author={Eric Liang and Richard Liaw and Philipp Moritz and Robert Nishihara and Roy Fox and Ken Goldberg and Joseph Gonzalez and Michael I. Jordan and Ion Stoica},
+  booktitle={International Conference on Machine Learning 35},
+  year={2018}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div11, bib11)">bib</a>]</font> <font size="-1">[<a href="https://arxiv.org/abs/1712.09381">arXiv</a>]</font> <br>
+    <div id="div11"></div>
+
+  <li><b>Ray: A Distributed Framework for Emerging AI Applications.</b><br>
+    Philipp Moritz, Robert Nishihara, Stephanie Wang, Alexey Tumanov, Richard Liaw, Eric Liang, William Paul, Michael I. Jordan, Ion Stoica.<br>
+    <div id="bib10" style="display:none">
+      <blockquote>
+	<pre>
+@article{moritz2017ray,
+  title={{Ray}: A Distributed Framework for Emerging {AI} Applications},
+  author={Philipp Moritz and Robert Nishihara and Stephanie Wang and Alexey Tumanov and Richard Liaw and Eric Liang and William Paul and Michael I. Jordan and Ion Stoica},
+  journal={arXiv preprint arXiv:1712.05889},
+  year={2017}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div10, bib10)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1712.05889">arXiv</a>]</font> <font size="-1">[<a href="https://github.com/ray-project/ray">GitHub</a>]</font><br>
+    <div id="div10"></div>
+
+  <li><b>Real-Time Machine Learning: The Missing Pieces.</b><br>
+    Robert Nishihara, Philipp Moritz, Stephanie Wang, Alexey Tumanov, William Paul, Johann Schleier-Smith, Richard Liaw, Mehrdad Niknami, Michael I. Jordan, Ion Stoica.<br>
+    <i>HotOS</i>, 2017.<br>
+    <div id="bib9" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{nishihara2017real,
+  title={Real-Time Machine Learning: The Missing Pieces},
+  author={Robert Nishihara and Philipp Moritz and Stephanie Wang and Alexey Tumanov and William Paul and Johann Schleier-Smith and Richard Liaw and Mehrdad Niknami and Michael I. Jordan and Ion Stoica},
+  booktitle={Workshop on Hot Topics in Operating Systems},
+  year={2017}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div9, bib9)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1703.03924">arXiv</a>]</font> <font size="-1">[<a href="https://github.com/ray-project/ray">GitHub</a>]</font><br>
+    <div id="div9"></div>
+
+  <li><b>Discovering Causal Signals in Images.</b><br>
+    David Lopez-Paz, Robert Nishihara, Soumith Chintala, Bernhard Scholkopf, Leon Bottou.<br>
+    <i>CVPR</i>, 2017.<br>
+    <div id="bib8" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{lopez-paz2016discovering,
+  title={Discovering Causal Signals in Images},
+  author={David Lopez-Paz and Robert Nishihara and Soumith Chintala and Bernhard Sch{\"o}lkopf and L\'eon Bottou},
+  booktitle={Conference on Computer Vision and Pattern Recognition},
+  year={2017}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div8, bib8)">bib</a>]</font> <font size="-1">[<a href="https://arxiv.org/abs/1605.08179">arXiv</a>]</font><br>
+    <div id="div8"></div>
+
+  <li><b>SparkNet: Training Deep Networks in Spark.</b><br>
+    Philipp Moritz, Robert Nishihara, Ion Stoica, Michael I. Jordan.<br>
+    <i>ICLR</i>, 2016.<br>
+    <div id="bib7" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{moritz2015sparknet,
+  title={{S}park{N}et: Training Deep Networks in {S}park},
+  author={Philipp Moritz and Robert Nishihara and Ion Stoica and Michael I. Jordan},
+  booktitle={International Conference on Learning Representations},
+  year={2016}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div7, bib7)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1511.06051">arXiv</a>]</font> <font size="-1">[<a href="https://github.com/amplab/SparkNet">GitHub</a>]</font><br>
+    <div id="div7"></div>
+
+  <li><b>No Regret Bound for Extreme Bandits.</b><br>
+    Robert Nishihara, David Lopez-Paz, Leon Bottou.<br>
+    <i>AISTATS</i>, 2016.<br>
+    <div id="bib6" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{nishihara2016regret,
+  title={No Regret Bound for Extreme Bandits},
+  author={Robert Nishihara and David Lopez-Paz and L\'eon Bottou},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={259--267},
+  year={2016}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div6, bib6)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1508.02933">arXiv</a>]</font><br>
+    <div id="div6"></div>
+
+  <li><b>A Linearly-Convergent Stochastic L-BFGS Algorithm.</b><br>
+    Philipp Moritz, Robert Nishihara, Michael I. Jordan.<br>
+    <i>AISTATS</i>, 2016.<br>
+    <div id="bib5" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{moritz2016linearly,
+  title={A Linearly-Convergent Stochastic {L-BFGS} Algorithm},
+  author={Philipp Moritz and Robert Nishihara and Michael I. Jordan},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={249--258},
+  year={2016}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div5, bib5)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1508.02087">arXiv</a>]</font> <font size="-1">[<a href="https://github.com/pcmoritz/slbfgs">GitHub</a>]</font><br>
+    <div id="div5"></div>
+
+  <li><b>A General Analysis of the Convergence of ADMM.</b><br>
+    Robert Nishihara, Laurent Lessard, Benjamin Recht, Andrew Packard, Michael I. Jordan.<br>
+    <i>ICML</i>, 2015.<br>
+    <div id="bib4" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{nishihara2015general,
+  title={A General Analysis of the Convergence of {ADMM}},
+  author={Robert Nishihara and Laurent Lessard and Benjamin Recht and Andrew Packard and Michael I. Jordan},
+  booktitle={International Conference on Machine Learning 32},
+  pages={343--352},
+  year={2015}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div4, bib4)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1502.02009">arXiv</a>]</font><br>
+    <div id="div4"></div>
+
+  <li><b>On the Convergence Rate of Decomposable Submodular Function Minimization.</b><br>
+    Robert Nishihara, Stefanie Jegelka, Michael I. Jordan.<br>
+    <i>NIPS</i>, 2014.<br>
+    <div id="bib0" style="display:none">
+      <blockquote>
+	<pre>
+@inproceedings{nishihara2014convergence,
+  title={On the Convergence Rate of Decomposable Submodular Function Minimization},
+  author={Robert Nishihara and Stefanie Jegelka and Michael I. Jordan},
+  booktitle={Advances in Neural Information Processing Systems 27},
+  pages={640--648},
+  year={2014}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div0, bib0)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1406.6474">arXiv</a>]</font><br>
+    <div id="div0"></div>
+
+  <li><b>Detecting Parameter Symmetries in Probabilistic Models.</b><br>
+    Robert Nishihara, Thomas Minka, Daniel Tarlow.<br>
+    <div id="bib1" style="display:none">
+      <blockquote>
+	<pre>
+@article{nishihara2013detecting,
+  title={Detecting Parameter Symmetries in Probabilistic Models},
+  author={Robert Nishihara and Thomas Minka and Daniel Tarlow},
+  journal={arXiv preprint arXiv:1312.5386},
+  year={2013}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div1, bib1)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1312.5386">arXiv</a>]</font><br>
+    <div id="div1"></div>
+
+  <li><b>Parallel MCMC with Generalized Elliptical Slice Sampling.</b><br>
+    Robert Nishihara, Iain Murray, Ryan P. Adams.<br>
+    <i>JMLR</i>, 2014.<br>
+    <div id="bib2" style="display:none">
+      <blockquote>
+	<pre>
+@article{nishihara2014parallel,
+  author={Robert Nishihara and Iain Murray and Ryan P. Adams},
+  title={Parallel {MCMC} with Generalized Elliptical Slice Sampling},
+  journal={Journal of Machine Learning Research},
+  year={2014},
+  volume={15},
+  pages={2087-2112}
+}
+	</pre>
+      </blockquote>
+    </div>
+    <font size="-1">[<a href="javascript:copy(div2, bib2)">bib</a>]</font> <font size="-1">[<a href="http://arxiv.org/abs/1210.7477">arXiv</a>]</font> <font size="-1">[<a href="https://github.com/robertnishihara/gess">GitHub</a>]</font><br>
+    <div id="div2"></div>
+
+</ul>
+
+<h3>Puzzles</h3>
+<ul>
+<li>The Rainbow Game is played by a team of seven. Each player gets a hat, which can be any one of the seven colors red, orange, yellow, green, blue, indigo, and violet. The colors of the hats are independent of each other and repetitions are allowed: for instance, it may happen that all the hats are green. Each player can see only the colors of the six hats worn by the rest of the team; no player can see the color of his or her own hat. The players are to guess the colors of their own hats, and if at least one player guesses correctly then the team as a whole wins. The players may not communicate in any way during the game, and they must all announce their guesses simultaneously. They are, however, allowed to plan out a strategy in advance, and they hope to find a strategy which will guarantee them success for every possible arrangement of hats. Is there such a strategy? Either find one or show that it cannot exist. (As a warm-up, try two players and two colors, or three players and three colors.) <i>Taken from the <a href="http://www.mathcamp.org/2006/qquiz.php">2006 Mathcamp Qualifying Quiz</a>.</i></li>
+
+
+</ul>
+
+  </div>
+</body>
+</html>
